@@ -7,7 +7,6 @@ import Time exposing (Time)
 import AnimationFrame
 
 
--- http://yourjavascript.com/01187126411/ttown.js
 --MODEL
 
 
@@ -156,7 +155,7 @@ redMoonRising : Time -> President
 redMoonRising time =
     let
         maxTime =
-            1
+            7
 
         start =
             -0.5

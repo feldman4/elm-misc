@@ -13492,7 +13492,7 @@ var _user$project$TTown$Moon = {ctor: 'Moon'};
 var _user$project$TTown$redMoonRising = function (time) {
 	var end = 0.2;
 	var start = -0.5;
-	var maxTime = 1;
+	var maxTime = 7;
 	var a = A3(_elm_lang$core$Basics$clamp, 0, 1, time / maxTime);
 	var y = (start * (1 - a)) + (end * a);
 	return {
