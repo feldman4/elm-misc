@@ -158,7 +158,7 @@ redMoonRising time =
             7
 
         start =
-            -0.5
+            -0.3
 
         end =
             0.2
