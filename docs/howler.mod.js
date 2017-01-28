@@ -2769,16 +2769,3 @@
   };
 })();
 
-</script>
-<script>
-var audio = {};
-
-audio.estero = new Howl({
-	src: ['https://feldman4.github.io/elm-misc/estero_128.mp3'],
-	html5: true
-});
-
-audio.trumptown = new Howl({
-	src: ['https://feldman4.github.io/elm-misc/trump_town_min_128.mp3'],
-	html5: true
-});
