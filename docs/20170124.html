@@ -66,7 +66,7 @@ window.audio.trumptown.stop();
 <tw-passagedata pid="2" name="Nixonland" tags="" position="763.3333333333334,275">
 &lt;img src=&quot;https://i.imgur.com/74GS6yKl.jpg&quot; width=100%&gt;
 
-[Go on-&gt;Gallery of Heroes]&lt;ask|
+[Go on]&lt;ask|
 [Turn back]&lt;dontask|
 
 (click: ?ask)[(set: $reply3 to true)(goto: &quot;Gallery of Heroes&quot;)]
@@ -87,7 +87,7 @@ window.audio.trumptown.stop();
 
 (live: 0.5s)[(if: time &gt; 5s)[(replace: ?one)[So, originally I was going to make you sit through a lot of this.]]]
 
-(live: 0.5s)[(if: time &gt; 14s)[(replace: ?two)[ But, reading the news, I can&#39;t fault you for just wanting to pull the escape cord. ]](else-if: time &gt; 12s)[(replace: ?two)[ But, reading the news, ]](else-if: time &gt; 10s )[(replace: ?two)[ But,]]
+(live: 0.5s)[(if: time &gt; 14s)[(replace: ?two)[ But, considering recent events, I can&#39;t fault you for just wanting to pull the escape cord. ]](else-if: time &gt; 12s)[(replace: ?two)[ But, considering recent events, ]](else-if: time &gt; 10s )[(replace: ?two)[ But,]]
 ]
 (live: 0.5s)[(if: time &gt; 18s)[(replace: ?three)[[[Run-&gt;A Story Needs A Maid]]]]]</tw-passagedata>
 <tw-passagedata pid="4" name="2 Walnut Street" tags="" position="788.3333333333334,523.3333333333334">The map takes you to a wide, uneven street west of Porter.
@@ -191,7 +191,7 @@ Christ, you are a cad and a bore. I should have left you on that fence.
 (if: $reply2)[(replace: ?p2)[What&#39;s so special you&#39;d send me one-hundred and ten years back, to a hamlet on the Gulf Coast? May I keep my school globe, or must we puncture and invert it? Who is Cyrus Teed, and what&#39;s in that upstate New York water, anyway?
 
 ]]
-(if: $reply3)[(replace: ?p3)[Huh, I guess **do** want to be summoned through space and time by the power of sheer malice, to a ghostly Oval Office brought into existence by the vindictive, unsettled spirit of Richard Nixon. Where else could I
+(if: $reply3)[(replace: ?p3)[Huh, I guess **do** want to be summoned through space and time by the power of sheer malice, to a ghostly Oval Office brought into existence by the vindictive, unsettled spirit of Richard Nixon! Where else could I
 
 * Defeat old enemies
 * Locate the memorabilia of a bygone era
